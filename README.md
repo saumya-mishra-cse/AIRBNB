@@ -1,7 +1,7 @@
 ### A full stack web application inspired by AIRBNB
 
 ### Features
-CRUD for listings: Create, Views ,Edit and Delete property listings
+CRUD for listings: Create, Views ,Edit and Delete property listings;
 User Authentication : Signup,Login,Logout.
 
 ### Tech Stack
