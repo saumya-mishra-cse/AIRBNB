@@ -98,7 +98,9 @@ next();
 });
 app.use(savedRedirectUrl)
 
-
+app.get("/",(req,res)=>{
+    res.redirect("/listings")
+})
 
 
 //4
