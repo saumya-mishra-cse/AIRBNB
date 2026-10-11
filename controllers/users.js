@@ -18,10 +18,11 @@ module.exports.signup = async(req,res,next)=>{
         if(err){
             return next(err);
         }
+         req.flash("success","Welcome to Wanderlust!");
+    res.redirect("/listings")
     })
-  
-    req.flash("success","Welcome to Wanderlust!");
-    res.redirect("/listings")}
+}
+   
     catch(e){
 req.flash("error",e.message);
 res.redirect("/signup");
